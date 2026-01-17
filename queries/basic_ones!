@@ -1,1 +1,64 @@
+--Affiche toutes les bagues disponibles
+select * from bagues;
+--Montre les 5 produits les plus chers de la table bracelets
+select * from barcelet 
+group by bracelet_id 
+order by prix  DESC 
+limit 5;
+--Compte combien de colliers sont en stock
+select count(*) as nombre_colliers_en_stock
+from colliers
+where (en_stock = TRUE)
+group by collier_id;
+--Trouve tous les produits entre 50 et 100 DT 
+SELECT * FROM bagues WHERE prix BETWEEN 50 AND 100
+UNION ALL
+SELECT *FROM bracelets WHERE prix BETWEEN 50 AND 100
+UNION ALL
+SELECT * FROM boucles_oreilles WHERE prix BETWEEN 50 AND 100
+UNION ALL
+SELECT  * FROM colliers WHERE prix BETWEEN 50 AND 100
+UNION ALL
+SELECT * FROM parures WHERE prix BETWEEN 50 AND 100;
+--Calcule le prix moyen des bagues 
+selct avg(prix) as prix_moyen_bagues 
+from bagues;
+--Affiche les produits qui contiennent "olivier" dans leur nom  ( de collection olivier):
+SELECT * FROM bagues 
+WHERE nom LIKE '%olivier%'
+UNION ALL
+SELECT * FROM bracelets 
+WHERE nom LIKE '%olivier%'
+UNION ALL
+SELECT * FROM boucles_oreilles 
+WHERE nom LIKE '%olivier%'
+UNION ALL
+SELECT * FROM colliers 
+WHERE nom LIKE '%olivier%';
+--Nombre de produits par collection
+select collection, count(*) as nombre_produits
+from (
+    select collection from bagues where collection is not null
+    union all
+    select collection from bracelets where collection is not null
+    union all
+    select collection from boucles_oreilles where collection is not null
+    union all
+    select collection from colliers where collection is not null
+    union all
+    select collection from parures where collection is not null
+) as toutes_collections
+GROUP by collection;
+--tous les produits avec leurs catégories
+select 'bague' as categorie, nom, prix, collection, symbole from bagues
+union all
+select 'bracelet', nom, prix, collection, symbole from bracelets
+union all
+select 'boucles d''oreilles', nom, prix, collection, symbole from boucles_oreilles
+union all
+select 'collier', nom, prix, collection, symbole from colliers
+union all
+select 'parure', nom, prix, collection, symbole from parures
+order by categorie, prix desc;
+
 
