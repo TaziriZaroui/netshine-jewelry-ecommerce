@@ -10,10 +10,7 @@ Système de gestion de boutique de bijoux avec SQL
 Elle a été fondée par une **artisane passionnée** de mon village, **Zraoua**, dans le but de proposer des créations artisanales qui allient **tradition et modernité**.   
 
 ## Objectif 
- Analyser le catalogue de produits de **Netshine Jewelry** via SQL pour :
-- Comprendre les **stocks** et la **disponibilité des produits**  
-- Suivre le **pricing** par catégorie et collection  
-- Vérifier la **qualité des données**
+ Analyser le catalogue de produits de **Netshine Jewelry** via SQL 
 
 - ## 🔹 Contenu du projet
 -  **database/** : fichiers SQL pour créer les tables et insérer les données.  
