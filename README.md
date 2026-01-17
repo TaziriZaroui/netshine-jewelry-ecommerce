@@ -3,3 +3,4 @@
 Système de gestion de boutique de bijoux avec SQL
 
 **🌐 Site officiel de site de notre database** : (https://netshin.store/) 
+**link de diagramme conceptuel de notre database** (https://app.chartdb.io/d/e5762a745ee9)
