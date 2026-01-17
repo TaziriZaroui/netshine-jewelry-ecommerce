@@ -21,4 +21,3 @@ Elle a été fondée par une **artisane passionnée** de mon village, **Zraoua**
 **Nom :** Hiba Mahroug   
 **Rôle :** etudiante en genie logiciel passionée par DATA   
 **GitHub :** [https://github.com/TaziriZaroui](https://github.com/TaziriZaroui)  
-**Contact :**zarouihiba@gmail.com
