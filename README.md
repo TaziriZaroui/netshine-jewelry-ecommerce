@@ -18,6 +18,6 @@ Elle a été fondée par une **artisane passionnée** de mon village, **Zraoua**
 
   ## 📝 Auteur
 
-**Nom :** Hiba Mahroug   
+**Nom :** Taziri Zaroui   
 **Rôle :** etudiante en genie logiciel passionée par DATA   
 **GitHub :** [https://github.com/TaziriZaroui](https://github.com/TaziriZaroui)  
