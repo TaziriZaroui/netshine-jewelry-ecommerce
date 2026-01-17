@@ -1,0 +1,58 @@
+/* 
+   CATALOGUE ACTUEL NETSHINE JEWELRY
+   Date d'extraction: Janvier 2026
+   Statut: Données réelles de production
+   Confidentialité: Publique (site web)
+   Contenu exact du site netshin.store
+*/
+USE netshine_jewelry;
+
+INSERT INTO categories (category_name) VALUES
+('Bagues'),
+('Bracelets'),
+('Boucles d''oreilles'),
+('Colliers'),
+('Parures');
+
+INSERT INTO bagues (nom, prix, collection, materiau, symbole) VALUES
+('Bague neb Jmal', 59.00, 'Neb Jmal', 'Argent', 'Neb Jmal'),
+('Bague avec Agate Mouse', 59.00, 'Pierres Naturelles', 'Argent', 'Agate'),
+('Bague avec Jasper Rouge', 55.00, 'Pierres Naturelles', 'Argent', 'Jasper'),
+('Bague symbole de l''olivier', 75.00, 'Symboles Amazigh', 'Argent', 'Olivier'),
+('Bague en argent simple', 40.00, 'Classique', 'Argent', NULL),
+('Bague en argent Yaz gravé', 50.00, 'Yaz Collection', 'Argent', 'Yaz');
+
+INSERT INTO bracelets (nom, prix, collection, materiau, symbole) VALUES
+('Bracelet Neb Jmal', 70.00, 'Neb Jmal', 'Argent', 'Neb Jmal'),
+('Bracelet personnalisé plusieurs lettres', 55.00, 'Personnalisé', 'Argent', NULL),
+('Bracelet personnalisé argent platiné d''Or', 45.00, 'Luxe', 'Argent platiné Or', NULL),
+('Bracelet - Une seule lettre', 40.00, 'Personnalisé', 'Argent', NULL),
+('Bracelet - Deux lettres', 45.00, 'Personnalisé', 'Argent', NULL),
+('Bracelet Yaz', 25.00, 'Yaz Collection', 'Argent', 'Yaz'),
+('Bracelet argent symbole de l''olivier', 65.00, 'Symboles Amazigh', 'Argent', 'Olivier'),
+('Bracelet 4 symboles en argent', 80.00, 'Symboles Amazigh', 'Argent', '4 Symboles'),
+('Bracelet Yaz zb argent symboles Amazigh', 48.00, 'Yaz Collection', 'Argent', 'Yaz');
+
+INSERT INTO boucles_oreilles (nom, prix, collection, materiau, symbole) VALUES
+('Boucles d''oreilles en argent de symbole d''olivier', 57.00, 'Symboles Amazigh', 'Argent', 'Olivier'),
+('Boucles d''oreilles yaz gravé dimensions,1cm', 37.00, 'Yaz Collection', 'Argent', 'Yaz'),
+('Boucles d''oreilles en argent de symbole yaz gravé', 57.00, 'Yaz Collection', 'Argent', 'Yaz'),
+('Boucles des lettres amazigh argent avec œil de tigre', 55.00, 'Pierres Naturelles', 'Argent', NULL),
+('Boucles d''oreilles Amazigh, ⴰⵎⴰⵣⵉⵖ', 75.00, 'Symboles Amazigh', 'Argent', 'ⴰⵎⴰⵣⵉⵖ'),
+('Boucles de collection omk Tambo, symbole d''olivier', 67.00, 'Omk Tambo', 'Argent', 'Olivier'),
+('Boucles d''oreilles collection Houroufyette', 57.00, 'Houroufyette', 'Argent', NULL);
+
+INSERT INTO colliers (nom, prix, collection, materiau, symbole) VALUES
+('Collier en argent de symbole d''olivier gravé', 49.00, 'Symboles Amazigh', 'Argent', 'Olivier'),
+('Collier en argent, de symbole d''olivier avec corail', 90.00, 'Symboles Amazigh', 'Argent', 'Olivier'),
+('collier margoum', 49.00, 'Traditionnel', 'Argent', NULL),
+('collier yaz gravé symbole de l''homme et de la femme libres', 47.00, 'Yaz Collection', 'Argent', 'Yaz'),
+('Collier Yaz, symbole de l''homme et de la femme libres', 47.00, 'Yaz Collection', 'Argent', 'Yaz'),
+('Collier en argent avec corail collection Omk Tambo', 150.00, 'Omk Tambo', 'Argent', NULL),
+('Colier jouher de trois motifs de symbole d''olivier', 130.00, 'Symboles Amazigh', 'Argent', 'Olivier'),
+('collier des lettres amazigh et arab collection Houroufyette', 78.00, 'Houroufyette', 'Argent', NULL);
+
+INSERT INTO parures (nom, prix, collection, materiau, symbole) VALUES
+('Neb jmal', 180.00, 'Neb Jmal', 'Argent', 'Neb Jmal'),
+('Parure symbole d''olivier', 220.00, 'Symboles Amazigh', 'Argent', 'Olivier'),
+('Parure Yaz', 160.00, 'Yaz Collection', 'Argent', 'Yaz');
